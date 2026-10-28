@@ -1,7 +1,7 @@
 <div align="center">
 
 #  Tarık Tozlu (@Tarikdxd)
-### *Security, Privacy*
+### *Security, Privacy.*
 
 [![GitHub Followers](https://img.shields.io/github/followers/Tarikdxd?label=Followers&style=flat-square&color=blue)](https://github.com/Tarikdxd)
 [![GitHub Stars](https://img.shields.io/github/stars/Tarikdxd?label=Stars&style=flat-square&color=yellow)](https://github.com/Tarikdxd)
