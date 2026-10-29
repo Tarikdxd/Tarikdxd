@@ -1,21 +1,14 @@
-<div align="center">
+### Tarık Tozlu
 
-#  Tarık Tozlu (@Tarikdxd)
-### *Security, Privacy.*
+Security and privacy tooling. Python and TypeScript.
 
-[![GitHub Followers](https://img.shields.io/github/followers/Tarikdxd?label=Followers&style=flat-square&color=blue)](https://github.com/Tarikdxd)
-[![GitHub Stars](https://img.shields.io/github/stars/Tarikdxd?label=Stars&style=flat-square&color=yellow)](https://github.com/Tarikdxd)
-[![License](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)](LICENSE)
+- [Eschaton-DNS](https://github.com/Tarikdxd/Eschaton-DNS) — DNS-over-HTTPS proxy with a
+  telemetry blocklist
+- [Eschaton-Tunnel](https://github.com/Tarikdxd/Eschaton-Tunnel) — HTTP tunnel client and relay
+  protocol
+- [Eschaton-Proxy](https://github.com/Tarikdxd/Eschaton-Proxy) — ENet proxy for Growtopia
+- [Eschaton-Code](https://github.com/Tarikdxd/Eschaton-Code) — terminal coding agent
+- [Discord-Token-Manager](https://github.com/Tarikdxd/Discord-Token-Manager) — desktop panel for
+  multiple Discord accounts
 
-```text
-███████╗███████╗ ██████╗██╗  ██╗ █████╗ ████████╗ ██████╗ ███╗   ██╗
-██╔════╝██╔════╝██╔════╝██║  ██║██╔══██╗╚══██╔══╝██╔═══██╗████╗  ██║
-█████╗  ███████╗██║     ███████║███████║   ██║   ██║   ██║██╔██╗ ██║
-██╔══╝  ╚════██║██║     ██╔══██║██╔══██║   ██║   ██║   ██║██║╚██╗██║
-███████╗███████║╚██████╗██║  ██║██║  ██║   ██║   ╚██████╔╝██║ ╚████║
-╚══════╝╚══════╝ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝    ╚═════╝ ╚═╝  ╚═══╝
-```
-
----
-
-</div>
+[github.com/Tarikdxd](https://github.com/Tarikdxd)
