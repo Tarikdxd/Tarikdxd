@@ -44,16 +44,21 @@ TypeScript · Python · Bun · Linux
 ## GitHub istatistikleri
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Tarikdxd&show_icons=true&theme=tokyonight&locale=tr&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub istatistikleri" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tarikdxd&layout=compact&theme=tokyonight&locale=tr&hide_border=true&langs_count=8" alt="En çok kullanılan diller" />
+  <img width="49%" src="./profile-summary-card-output/tokyonight/0-profile-details.svg" alt="Profil özeti" />
+  <img width="49%" src="./profile-summary-card-output/tokyonight/3-stats.svg" alt="İstatistikler" />
+</p>
+
+<p align="center">
+  <img width="49%" src="./profile-summary-card-output/tokyonight/1-repos-per-language.svg" alt="Dillere göre repolar" />
+  <img width="49%" src="./profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="Commit dilleri" />
+</p>
+
+<p align="center">
+  <img width="60%" src="./profile-summary-card-output/tokyonight/4-productive-time.svg" alt="Üretken saatler" />
 </p>
 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=Tarikdxd&theme=tokyonight&locale=tr&hide_border=true" alt="Katkı serisi" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Tarikdxd&theme=tokyo-night&hide_border=true&days=90&area=true" alt="Katkı grafiği" />
 </p>
 
 ## Teknolojiler
