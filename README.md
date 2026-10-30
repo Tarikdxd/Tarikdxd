@@ -39,6 +39,8 @@ TypeScript · Python · Bun · Linux
 | **[Eschaton-Agent](https://github.com/Tarikdxd/Eschaton-Agent)** | Yetkili sızma testi ve kod yazma için insan denetimli terminal ajanı. Türkçe arayüz, beceri kütüphanesi, MCP desteği. |
 | **[Eschaton-DNS](https://github.com/Tarikdxd/Eschaton-DNS)** | DNS-over-HTTPS proxy ve telemetri/reklam engelleyici; canlı terminal TUI. |
 | **[Eschaton-Tunnel](https://github.com/Tarikdxd/Eschaton-Tunnel)** | Sıfır yapılandırmalı yerel HTTP/TCP tüneli; ngrok alternatifi. |
+| **[security-headers-checker](https://github.com/Tarikdxd/security-headers-checker)** | CSP/HSTS/CORS denetleyen Bun CLI + GitHub Action. |
+| **[eschaton-mcp](https://github.com/Tarikdxd/eschaton-mcp)** | nmap/httpx/ffuf/sqlmap için kapsam zorlamalı MCP sunucusu. |
 | **[Discord-Token-Manager](https://github.com/Tarikdxd/Discord-Token-Manager)** | Çok hesaplı Discord masaüstü yönetim paneli. |
 
 ## GitHub istatistikleri
@@ -77,7 +79,9 @@ TypeScript · Python · Bun · Linux
 ## Şu an
 
 - **Eschaton-Agent v1.0.0** — Türkçe arayüz, pentest + kod yazma becerileri, MCP ve insan denetimli izin akışı.
-- Sırada: MCP araç sunucuları, güvenlik başlığı denetleyicisi ve Türkçe güvenlik kaynakları.
+- **security-headers-checker** — HTTP güvenlik başlıklarını puanlayan Bun CLI ve GitHub Action.
+- **eschaton-mcp** — nmap/httpx/ffuf/sqlmap için kapsam zorlamalı MCP köprüsü.
+- **awesome-turkish-security** — Türkçe güvenlik kaynakları; katkıya açık.
 - Yeni işlerde doğrudan `main` yerine **issue → branch → pull request → review** akışını kullanıyorum.
 
 ## İletişim
