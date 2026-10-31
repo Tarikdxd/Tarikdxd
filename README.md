@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/banner.svg" width="100%" alt="Tarık Tozlu — Security & Privacy · Offensive Tooling" />
+<a href="https://tarikdxd.github.io"><img src="./assets/profile-preview.png" width="100%" alt="Tarık Tozlu — güvenlik araçları ve açık kaynak portfolyosu" /></a>
 
 **Yetkili sızma testi, güvenlik araçları ve terminal ajanları geliştiriyorum.**
 TypeScript · Python · Bun · Linux
