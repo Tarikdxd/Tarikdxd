@@ -6,6 +6,7 @@
 TypeScript · Python · Bun · Linux
 
 [![Eschaton-Agent](https://img.shields.io/badge/Flagship-Eschaton--Agent-0ea5e9?style=for-the-badge&logo=gnubash&logoColor=white)](https://github.com/Tarikdxd/Eschaton-Agent)
+[![Website](https://img.shields.io/badge/Website-tarikdxd.github.io-0ea5e9?style=for-the-badge&logo=githubpages&logoColor=white)](https://tarikdxd.github.io)
 [![GitHub](https://img.shields.io/badge/GitHub-Tarikdxd-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Tarikdxd)
 [![Followers](https://img.shields.io/github/followers/Tarikdxd?style=for-the-badge&logo=github&label=Followers&color=1e293b)](https://github.com/Tarikdxd?tab=followers)
 
