@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b1220,100:1e293b&height=190&section=header&text=Tar%C4%B1k%20Tozlu&fontSize=44&fontColor=e2e8f0&desc=Security%20%26%20Privacy%20%C2%B7%20Offensive%20Tooling&descAlignY=64&descSize=16" alt="Tarık Tozlu" />
+<img src="./assets/banner.svg" width="100%" alt="Tarık Tozlu — Security & Privacy · Offensive Tooling" />
 
 **Yetkili sızma testi, güvenlik araçları ve terminal ajanları geliştiriyorum.**
 TypeScript · Python · Bun · Linux
@@ -21,18 +21,6 @@ TypeScript · Python · Bun · Linux
 - **Security, privacy.** — yerel, denetlenebilir ve minimum veri toplayan tasarımlar.
 
 ## Öne çıkan projeler
-
-<p align="center">
-  <a href="https://github.com/Tarikdxd/Eschaton-Agent">
-    <img height="150" src="https://github-readme-stats.vercel.app/api/pin/?username=Tarikdxd&repo=Eschaton-Agent&theme=tokyonight&locale=tr&hide_border=true" alt="Eschaton-Agent" />
-  </a>
-  <a href="https://github.com/Tarikdxd/Eschaton-DNS">
-    <img height="150" src="https://github-readme-stats.vercel.app/api/pin/?username=Tarikdxd&repo=Eschaton-DNS&theme=tokyonight&locale=tr&hide_border=true" alt="Eschaton-DNS" />
-  </a>
-  <a href="https://github.com/Tarikdxd/Eschaton-Tunnel">
-    <img height="150" src="https://github-readme-stats.vercel.app/api/pin/?username=Tarikdxd&repo=Eschaton-Tunnel&theme=tokyonight&locale=tr&hide_border=true" alt="Eschaton-Tunnel" />
-  </a>
-</p>
 
 | Proje | Ne yapar |
 | --- | --- |
@@ -57,10 +45,6 @@ TypeScript · Python · Bun · Linux
 
 <p align="center">
   <img width="60%" src="./profile-summary-card-output/tokyonight/4-productive-time.svg" alt="Üretken saatler" />
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=Tarikdxd&theme=tokyonight&locale=tr&hide_border=true" alt="Katkı serisi" />
 </p>
 
 ## Teknolojiler

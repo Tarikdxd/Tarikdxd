@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220" role="img" aria-label="Tarık Tozlu — Security and Privacy, Offensive Tooling">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.045"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="220" fill="url(#bg)"/>
+  <rect width="1200" height="220" fill="url(#grid)"/>
+  <rect x="0" y="0" width="6" height="220" fill="url(#accent)"/>
+
+  <g transform="translate(64,72)">
+    <text font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="54" font-weight="700" fill="#e2e8f0">Tarık Tozlu</text>
+    <text y="42" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="20" fill="#94a3b8">Security &amp; Privacy · Offensive Tooling</text>
+    <text y="82" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="16" fill="#64748b">github.com/Tarikdxd</text>
+  </g>
+
+  <g transform="translate(812,48)">
+    <rect width="324" height="124" rx="12" fill="#0f172a" stroke="#334155"/>
+    <circle cx="20" cy="20" r="5" fill="#f87171"/>
+    <circle cx="38" cy="20" r="5" fill="#fbbf24"/>
+    <circle cx="56" cy="20" r="5" fill="#34d399"/>
+    <text x="20" y="54" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="15" fill="#38bdf8">$ eschaton</text>
+    <text x="20" y="78" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="13" fill="#94a3b8">pentest + code · Türkçe</text>
+    <text x="20" y="100" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="13" fill="#64748b">v1.0.0</text>
+  </g>
+</svg>
