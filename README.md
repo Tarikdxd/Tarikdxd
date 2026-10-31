@@ -2,40 +2,44 @@
   <a href="https://tarikdxd.github.io"><img src="./assets/profile-banner.png" width="100%" alt="Tarık Tozlu — Security & Privacy, Offensive Tooling" /></a>
 </div>
 
-<img src="./assets/avatar-circle.png" width="28" height="28" alt="Tarık Tozlu" /> **Tarık Tozlu** <sub>· şimdi</sub>
+<h1 align="center">Tarık Tozlu</h1>
 
-Yetkili sızma testi ve hata avcılığı için araçlar geliştiriyorum. Terminal ajanları, ağ araçları, MCP entegrasyonları ve otomasyon üzerine çalışıyorum.
+<p align="center">
+  <b>Security &amp; Privacy · Offensive Tooling</b><br />
+  Yetkili sızma testi ve hata avcılığı için araçlar geliştiriyorum.<br />
+  <sub>Eschaton LTD. · Türkçe açık kaynak · TypeScript, Python, Bun, Linux</sub>
+</p>
 
-<sub>Eschaton LTD. · Türkçe açık kaynak · TypeScript, Python, Bun, Linux</sub>
+<p align="center">
+  <a href="https://tarikdxd.github.io"><img src="https://img.shields.io/badge/Website-tarikdxd.github.io-0ea5e9?style=for-the-badge&logo=githubpages&logoColor=white" alt="Website" /></a>
+  <a href="https://github.com/Tarikdxd"><img src="https://img.shields.io/badge/GitHub-Tarikdxd-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+  <a href="https://orcid.org/0009-0008-7306-9232"><img src="https://img.shields.io/badge/ORCID-0009--0008--7306--9232-A6CE39?style=for-the-badge&logo=orcid&logoColor=white" alt="ORCID" /></a>
+</p>
 
-<p align="right"><img src="./assets/bubble-projects.svg" height="34" alt="Neler inşa ettin?" /></p>
+## Hakkımda
 
-<img src="./assets/avatar-circle.png" width="28" height="28" alt="" /> **Tarık** <sub>· şimdi</sub>
+- **Eschaton LTD.** çatısı altında yetkili sızma testi ve hata avcılığı için araçlar geliştiriyorum.
+- Terminal ajanları, ağ araçları, MCP entegrasyonları ve otomasyon üzerine çalışıyorum.
+- Türkçe açık kaynak: ürünlerin arayüzü ve dokümantasyonu öncelikli olarak Türkçe.
+- **Security, privacy.** Yerel, denetlenebilir ve minimum veri toplayan tasarımlar.
+
+## Öne çıkan projeler
 
 - **[Eschaton-Agent](https://github.com/Tarikdxd/Eschaton-Agent)** `v1.0.0` — yetkili sızma testi ve kod yazma için insan denetimli terminal ajanı. Türkçe arayüz, 36 beceri, MCP ve izin akışı.
-- **[security-headers-checker](https://github.com/Tarikdxd/security-headers-checker)** `v0.2.0` — CSP/HSTS/CORS/çerez denetimi, puanlama, SARIF ve GitHub Action.
+- **[security-headers-checker](https://github.com/Tarikdxd/security-headers-checker)** `v0.2.0` — CSP/HSTS/CORS/çerez denetimi, ağırlıklı puanlama, SARIF ve GitHub Action.
 - **[eschaton-mcp](https://github.com/Tarikdxd/eschaton-mcp)** `v0.2.0` — nmap, httpx, ffuf, sqlmap ve nuclei için kapsam zorlamalı MCP sunucusu.
 - **[Eschaton-DNS](https://github.com/Tarikdxd/Eschaton-DNS)** — DNS-over-HTTPS proxy ve telemetri/reklam engelleyici; canlı terminal TUI.
 - **[Eschaton-Tunnel](https://github.com/Tarikdxd/Eschaton-Tunnel)** — sıfır yapılandırmalı yerel HTTP/TCP tüneli; ngrok alternatifi.
 - **[awesome-turkish-security](https://github.com/Tarikdxd/awesome-turkish-security)** — Türkçe güvenlik kaynakları; linkler CI ile doğrulanıyor.
-- **[Discord-Token-Manager](https://github.com/Tarikdxd/Discord-Token-Manager)** — çok hesaplı Discord masaüstü yönetim paneli.
 
-<p align="right"><img src="./assets/bubble-contributions.svg" height="34" alt="Açık kaynağa katkın var mı?" /></p>
-
-<img src="./assets/avatar-circle.png" width="28" height="28" alt="" /> **Tarık** <sub>· şimdi</sub>
-
-Açık kaynakta başkalarının repolarına da dokunuyorum:
+## Açık kaynak katkıları
 
 - **[airlock #108](https://github.com/airlock-sec/airlock/pull/108)** — yazılamayan manifest/rapor yolunu exit 2 kullanım hatası yapar. **Merge edildi.**
 - **[ffuf #964](https://github.com/ffuf/ffuf/pull/964)** — dar terminalde progress satırının taşmasını düzeltir. **Tüm CI kontrolleri yeşil.**
 - **[trufflehog #5499](https://github.com/trufflesecurity/trufflehog/pull/5499)** — README'ye içindekiler tablosu ekler. **CLA imzalandı; kontroller yeşil.**
 - **[gitleaks #2332](https://github.com/gitleaks/gitleaks/pull/2332)** — SourceGraph çok satırlı token vakası için regresyon testi. İncelemede.
 
-<p align="right"><img src="./assets/bubble-stack.svg" height="34" alt="Neler kullanıyorsun?" /></p>
-
-<img src="./assets/avatar-circle.png" width="28" height="28" alt="" /> **Tarık** <sub>· şimdi</sub>
-
-Günlük akışımda ağırlıklı olarak:
+## Teknolojiler
 
 <p>
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
@@ -48,9 +52,7 @@ Günlük akışımda ağırlıklı olarak:
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
 </p>
 
-<img src="./assets/avatar-circle.png" width="28" height="28" alt="" /> **Tarık** <sub>· şimdi</sub>
-
-Rakamlarla:
+## GitHub
 
 <p align="center">
   <img width="72%" src="./profile-summary-card-output/tokyonight/0-profile-details.svg" alt="Profil özeti" />
@@ -62,17 +64,12 @@ Rakamlarla:
 
 <sub>Daha fazla grafik: [tarikdxd.github.io](https://tarikdxd.github.io)</sub>
 
-<p align="right"><img src="./assets/bubble-contact.svg" height="34" alt="Nasıl ulaşırım?" /></p>
-
-<img src="./assets/avatar-circle.png" width="28" height="28" alt="" /> **Tarık** <sub>· şimdi</sub>
-
-Proje fikirleri, güvenlik bildirimleri veya iş birliği için buradayım:
+## İletişim
 
 <p>
-  <a href="https://tarikdxd.github.io"><img src="https://img.shields.io/badge/Website-tarikdxd.github.io-0ea5e9?style=for-the-badge&logo=githubpages&logoColor=white" alt="Website" /></a>
   <a href="https://github.com/Tarikdxd"><img src="https://img.shields.io/badge/GitHub-Tarikdxd-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-  <a href="https://orcid.org/0009-0008-7306-9232"><img src="https://img.shields.io/badge/ORCID-0009--0008--7306--9232-A6CE39?style=for-the-badge&logo=orcid&logoColor=white" alt="ORCID" /></a>
   <a href="https://github.com/Tarikdxd/Tarikdxd/issues/new"><img src="https://img.shields.io/badge/Mesaj%20b%C4%B1rak-issue%20a%C3%A7-2563eb?style=for-the-badge&logo=github&logoColor=white" alt="Mesaj bırak" /></a>
+  <a href="https://orcid.org/0009-0008-7306-9232"><img src="https://img.shields.io/badge/ORCID-0009--0008--7306--9232-A6CE39?style=for-the-badge&logo=orcid&logoColor=white" alt="ORCID" /></a>
 </p>
 
 <p align="center"><sub>Yalnızca yetkili sistemlerde test yapın. Yetkisiz erişim suçtur.</sub></p>
