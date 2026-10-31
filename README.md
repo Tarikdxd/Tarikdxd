@@ -74,6 +74,7 @@ TypeScript · Python · Bun · Linux
 - **[ffuf #964](https://github.com/ffuf/ffuf/pull/964)** — dar terminalde progress satırının taşmasını düzeltir; tüm CI kontrolleri yeşil.
 - **[trufflehog #5499](https://github.com/trufflesecurity/trufflehog/pull/5499)** — README'ye içindekiler tablosu ekler.
 - **[airlock #108](https://github.com/airlock-sec/airlock/pull/108)** — yazılamayan manifest/rapor yolunu exit 2 kullanım hatası olarak sınıflandırır. **Merge edildi.**
+- **[gitleaks #2332](https://github.com/gitleaks/gitleaks/pull/2332)** — SourceGraph çok satırlı token vakası için regresyon testi.
 
 ## İletişim
 
