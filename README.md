@@ -52,9 +52,12 @@ Günlük akışımda ağırlıklı olarak:
 
 Rakamlarla:
 
-<p>
-  <img width="49%" src="./profile-summary-card-output/tokyonight/0-profile-details.svg" alt="Profil özeti" />
-  <img width="49%" src="./profile-summary-card-output/tokyonight/3-stats.svg" alt="İstatistikler" />
+<p align="center">
+  <img width="72%" src="./profile-summary-card-output/tokyonight/0-profile-details.svg" alt="Profil özeti" />
+</p>
+
+<p align="center">
+  <img width="58%" src="./profile-summary-card-output/tokyonight/3-stats.svg" alt="İstatistikler" />
 </p>
 
 <sub>Daha fazla grafik: [tarikdxd.github.io](https://tarikdxd.github.io)</sub>
