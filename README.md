@@ -84,6 +84,12 @@ TypeScript · Python · Bun · Linux
 - **awesome-turkish-security** — Türkçe güvenlik kaynakları; katkıya açık.
 - Yeni işlerde doğrudan `main` yerine **issue → branch → pull request → review** akışını kullanıyorum.
 
+## Açık kaynak katkıları
+
+- **[ffuf #964](https://github.com/ffuf/ffuf/pull/964)** — dar terminalde progress satırının taşmasını düzeltir; tüm CI kontrolleri yeşil.
+- **[trufflehog #5499](https://github.com/trufflesecurity/trufflehog/pull/5499)** — README'ye içindekiler tablosu ekler.
+- **[airlock #108](https://github.com/airlock-sec/airlock/pull/108)** — yazılamayan manifest/rapor yolunu exit 2 kullanım hatası olarak sınıflandırır.
+
 ## İletişim
 
 - GitHub: [@Tarikdxd](https://github.com/Tarikdxd)
