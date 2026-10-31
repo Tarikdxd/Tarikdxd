@@ -64,8 +64,8 @@ TypeScript · Python · Bun · Linux
 ## Şu an
 
 - **Eschaton-Agent v1.0.0** — Türkçe arayüz, pentest + kod yazma becerileri, MCP ve insan denetimli izin akışı.
-- **security-headers-checker** — HTTP güvenlik başlıklarını puanlayan Bun CLI ve GitHub Action.
-- **eschaton-mcp** — nmap/httpx/ffuf/sqlmap için kapsam zorlamalı MCP köprüsü.
+- **security-headers-checker v0.2.0** — SARIF/Code Scanning çıktılı başlık denetleyicisi.
+- **eschaton-mcp v0.2.0** — nmap/httpx/ffuf/sqlmap + `nuclei_scan` için kapsam zorlamalı MCP köprüsü.
 - **awesome-turkish-security** — Türkçe güvenlik kaynakları; katkıya açık.
 - Yeni işlerde doğrudan `main` yerine **issue → branch → pull request → review** akışını kullanıyorum.
 
