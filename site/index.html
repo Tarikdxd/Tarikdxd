@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tarık Tozlu — Güvenlik Araçları &amp; Ajan Orkestrasyonu</title>
+  <meta
+    name="description"
+    content="Eschaton LTD. çatısı altında yapay zeka ajan köprüleri, yetkili sızma testi araçları, ağ/gizlilik yazılımları ve Türkçe açık kaynak güvenlik projeleri."
+  />
+  <meta name="author" content="Tarık Tozlu" />
+  <meta name="theme-color" content="#070709" />
+  <link rel="canonical" href="https://tarikdxd.github.io/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Tarık Tozlu" />
+  <meta property="og:title" content="Tarık Tozlu — Güvenlik Araçları &amp; Ajan Orkestrasyonu" />
+  <meta property="og:description" content="Eschaton-Agent, eschaton-mcp, security-headers-checker, Eschaton-DNS ve Türkçe açık kaynak güvenlik projeleri." />
+  <meta property="og:url" content="https://tarikdxd.github.io/" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Tarık Tozlu — Güvenlik Araçları &amp; Ajan Orkestrasyonu" />
+  <meta name="twitter:description" content="Eschaton-Agent, eschaton-mcp, security-headers-checker, Eschaton-DNS ve Türkçe açık kaynak güvenlik projeleri." />
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Tarık Tozlu",
+      "url": "https://tarikdxd.github.io/",
+      "jobTitle": "Security tooling & AI agent developer",
+      "worksFor": { "@type": "Organization", "name": "Eschaton LTD." },
+      "sameAs": [
+        "https://github.com/Tarikdxd",
+        "https://tarikdxd.github.io/Eschaton-Agent/",
+        "https://orcid.org/0009-0008-7306-9232"
+      ],
+      "knowsAbout": ["AI Agents", "Model Context Protocol", "Application Security", "TypeScript", "Python"]
+    }
+  </script>
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=UnifrakturMaguntia&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="skipLink">İçeriğe geç</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#" class="brand">
+        <span class="brand-gothic">Tarık Tozlu</span>
+        <span class="brand-version">Eschaton LTD.</span>
+      </a>
+
+      <nav class="nav-links" aria-label="Ana Menü">
+        <a href="#focus" data-i18n="navFocus">Odak</a>
+        <a href="#projects" data-i18n="navProjects">Projeler</a>
+        <a href="#resources" data-i18n="navResources">Kaynaklar</a>
+        <a href="#contributions" data-i18n="navContrib">Katkılar</a>
+        <a href="#stack" data-i18n="navStack">Teknolojiler</a>
+        <a href="#contact" data-i18n="navContact">İletişim</a>
+      </nav>
+
+      <div class="header-actions">
+        <button id="lang-toggle" class="lang-toggle" type="button" aria-label="Dil değiştir">EN</button>
+        <a
+          class="btn btn-primary"
+          href="https://github.com/Tarikdxd"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          GitHub
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="container">
+        <p class="hero-eyebrow" data-i18n="eyebrow">Eschaton LTD. · Güvenlik Araçları &amp; Ajan Orkestrasyonu</p>
+        <h1>Tarık Tozlu</h1>
+        <p class="hero-lead" data-i18n="heroLead">
+          Yapay zeka ajan köprüleri, yetkili sızma testi araçları ve gizlilik odaklı ağ yazılımları geliştiriyorum. Ağırlıklı olarak Python ve TypeScript ile çalışıyor, Türkçe açık kaynak güvenlik ekosistemine araçlar ve kaynaklar üretiyorum.
+        </p>
+
+        <div class="hero-cta-row">
+          <a
+            class="btn btn-primary"
+            href="https://github.com/Tarikdxd?tab=repositories"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-i18n="ctaRepos"
+          >
+            Tüm Repoları Gör
+          </a>
+          <a
+            class="btn btn-ghost"
+            href="https://tarikdxd.github.io/Eschaton-Agent/"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-i18n="ctaEschaton"
+          >
+            Eschaton-Agent Sitesi
+          </a>
+          <a class="btn btn-ghost" href="#contact" data-i18n="ctaContact">
+            İletişim
+          </a>
+        </div>
+
+        <div class="quick-prompt-box">
+          <div>
+            <span class="quick-prompt-label" data-i18n="promptLabel">Hızlı Erişim · GitHub CLI</span>
+            <p id="profile-cmd-text" class="quick-prompt-text">gh repo list Tarikdxd --limit 20</p>
+          </div>
+          <button
+            class="btn btn-primary"
+            type="button"
+            data-copy-target="profile-cmd-text"
+            data-i18n="copyBtn"
+          >
+            Kopyala
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section id="focus" class="section">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-kicker" data-i18n="focusKicker">Çalışma Alanları</p>
+          <h2 data-i18n="focusTitle">Dört Ana Odak</h2>
+          <p data-i18n="focusDesc">
+            Geliştirdiğim projeler; ajan orkestrasyonu, kapsam zorlamalı güvenlik otomasyonu, ağ gizliliği ve Türkçe kaynak üretimi etrafında şekilleniyor.
+          </p>
+        </div>
+
+        <div class="pillars-grid">
+          <article class="pillar-card">
+            <span class="pillar-num">01 / CO-AGENT BRIDGE</span>
+            <h3 data-i18n="f1Title">Ajan Orkestrasyonu &amp; MCP</h3>
+            <p data-i18n="f1Desc">
+              Qoder, OpenCode, Claude Code ve Cursor gibi ajanları yerel Antigravity masaüstü uygulamasına bağlayan, %10 kullanım kalkanlı ve canlı benchmark yönlendirmeli köprüler.
+            </p>
+          </article>
+
+          <article class="pillar-card">
+            <span class="pillar-num">02 / OFFENSIVE &amp; APPSEC</span>
+            <h3 data-i18n="f2Title">Güvenlik Denetimi &amp; Araçlar</h3>
+            <p data-i18n="f2Desc">
+              nmap, httpx, ffuf ve sqlmap için fail-closed kapsam zorlamalı MCP sunucuları; HTTP güvenlik başlıklarını SARIF çıktısıyla puanlayan Bun CLI ve GitHub Action'lar.
+            </p>
+          </article>
+
+          <article class="pillar-card">
+            <span class="pillar-num">03 / NETWORK &amp; PRIVACY</span>
+            <h3 data-i18n="f3Title">Ağ Tünelleme &amp; DNS Gizliliği</h3>
+            <p data-i18n="f3Desc">
+              Canlı terminal TUI arayüzlü hafif DNS-over-HTTPS (DoH) telemetri engelleyicisi ve sıfır yapılandırmalı açık kaynak HTTP/TCP ters proxy tünel araçları.
+            </p>
+          </article>
+
+          <article class="pillar-card">
+            <span class="pillar-num">04 / TURKISH OPEN SOURCE</span>
+            <h3 data-i18n="f4Title">Türkçe Güvenlik Ekosistemi</h3>
+            <p data-i18n="f4Desc">
+              Türkçe açıklamalı siber güvenlik kaynak listeleri, yasal laboratuvarlardan CTF writeup'ları ve CVSS/SARIF uyumlu bug bounty rapor şablonları.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-kicker" data-i18n="projectsKicker">Açık Kaynak Yazılımlar</p>
+          <h2 data-i18n="projectsTitle">Öne Çıkan Projeler</h2>
+          <p data-i18n="projectsDesc">
+            Ajan köprüleri, MCP sunucuları, güvenlik tarayıcıları ve sıfır bağımlılıklı ağ araçları.
+          </p>
+        </div>
+
+        <div class="cards-grid">
+          <a class="project-card" href="https://github.com/Tarikdxd/Eschaton-Agent" target="_blank" rel="noopener noreferrer">
+            <div class="card-top">
+              <h3>Eschaton-Agent</h3>
+              <span class="tag">Python · MCP</span>
+            </div>
+            <p data-i18n="pEschatonDesc">
+              Evrensel Antigravity Köprüsü &amp; %10 Kullanım Kalkanlı Yardımcı Ajan Orkestratörü. Qoder, OpenCode ve Claude Code'un yerel Antigravity'ye bağlanıp yönetmesini sağlar.
+            </p>
+            <div class="card-meta">
+              <span class="meta-link" data-i18n="metaDocs">Canlı Site &amp; Repo →</span>
+            </div>
+          </a>
+
+          <a class="project-card" href="https://github.com/Tarikdxd/eschaton-mcp" target="_blank" rel="noopener noreferrer">
+            <div class="card-top">
+              <h3>eschaton-mcp</h3>
+              <span class="tag">TypeScript · MCP</span>
+            </div>
+            <p data-i18n="pMcpDesc">
+              nmap, httpx, ffuf ve sqlmap için kapsam zorlamalı (fail-closed) MCP sunucusu. Güvenli araç köprüsü, metadata bloğu ve dry-run desteği.
+            </p>
+            <div class="card-meta">
+              <span class="meta-link" data-i18n="metaRepo">GitHub →</span>
+            </div>
+          </a>
+
+          <a class="project-card" href="https://github.com/Tarikdxd/security-headers-checker" target="_blank" rel="noopener noreferrer">
+            <div class="card-top">
+              <h3>security-headers-checker</h3>
+              <span class="tag">TypeScript · Bun</span>
+            </div>
+            <p data-i18n="pHeadersDesc">
+              CSP, HSTS, CORS ve çerez bayraklarını denetleyip puanlayan Bun CLI ve GitHub Action. GitHub Code Scanning için SARIF çıktısı üretir.
+            </p>
+            <div class="card-meta">
+              <span class="meta-link" data-i18n="metaRepo">GitHub →</span>
+            </div>
+          </a>
+
+          <a class="project-card" href="https://github.com/Tarikdxd/Eschaton-DNS" target="_blank" rel="noopener noreferrer">
+            <div class="card-top">
+              <h3>Eschaton-DNS</h3>
+              <span class="tag">Python · DoH</span>
+            </div>
+            <p data-i18n="pDnsDesc">
+              Canlı terminal TUI'a sahip ultra hafif DNS-over-HTTPS (DoH) proxy ve telemetri/izleyici engelleyici.
+            </p>
+            <div class="card-meta">
+              <span class="meta-link" data-i18n="metaRepo">GitHub →</span>
+            </div>
+          </a>
+
+          <a class="project-card" href="https://github.com/Tarikdxd/Eschaton-Tunnel" target="_blank" rel="noopener noreferrer">
+            <div class="card-top">
+              <h3>Eschaton-Tunnel</h3>
+              <span class="tag">Python · Proxy</span>
+            </div>
+            <p data-i18n="pTunnelDesc">
+              Anında, sıfır yapılandırmalı yerel HTTP/TCP ters proxy ve genel tünelleme CLI'ı. Açık kaynaklı ngrok alternatifi.
+            </p>
+            <div class="card-meta">
+              <span class="meta-link" data-i18n="metaRepo">GitHub →</span>
+            </div>
+          </a>
+
+          <a class="project-card" href="https://github.com/Tarikdxd/gh-profile-kit" target="_blank" rel="noopener noreferrer">
+            <div class="card-top">
+              <h3>gh-profile-kit</h3>
+              <span class="tag">GitHub · SVG</span>
+            </div>
+            <p data-i18n="pKitDesc">
+              GitHub profil kartlarını kendi reponda üreten, dış servise bağımlı olmayan şablon ve otomasyon kiti.
+            </p>
+            <div class="card-meta">
+              <span class="meta-link" data-i18n="metaRepo">GitHub →</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="resources" class="section">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-kicker" data-i18n="resKicker">Türkçe Dokümantasyon &amp; Şablonlar</p>
+          <h2 data-i18n="resTitle">Güvenlik Kaynakları</h2>
+          <p data-i18n="resDesc">
+            Türkçe siber güvenlik topluluğu için derlenen listeler, laboratuvar çözümleri ve raporlama standartları.
+          </p>
+        </div>
+
+        <div class="cards-grid">
+          <a class="project-card" href="https://github.com/Tarikdxd/awesome-turkish-security" target="_blank" rel="noopener noreferrer">
+            <div class="card-top">
+              <h3>awesome-turkish-security</h3>
+              <span class="tag">Awesome List</span>
+            </div>
+            <p data-i18n="rAwesomeDesc">
+              Türkçe açıklamalı, bağlantıları düzenli olarak doğrulanan ve bakımı yapılan siber güvenlik kaynakları listesi.
+            </p>
+            <div class="card-meta">
+              <span class="meta-link" data-i18n="metaRepo">GitHub →</span>
+            </div>
+          </a>
+
+          <a class="project-card" href="https://github.com/Tarikdxd/turkish-ctf-writeups" target="_blank" rel="noopener noreferrer">
+            <div class="card-top">
+              <h3>turkish-ctf-writeups</h3>
+              <span class="tag">CTF / Lab</span>
+            </div>
+            <p data-i18n="rCtfDesc">
+              Gerçek ve yasal laboratuvar ortamlarından adım adım Türkçe CTF ve zafiyet analizi writeup'ları.
+            </p>
+            <div class="card-meta">
+              <span class="meta-link" data-i18n="metaRepo">GitHub →</span>
+            </div>
+          </a>
+
+          <a class="project-card" href="https://github.com/Tarikdxd/bug-bounty-report-templates" target="_blank" rel="noopener noreferrer">
+            <div class="card-top">
+              <h3>bug-bounty-report-templates</h3>
+              <span class="tag">CVSS · SARIF</span>
+            </div>
+            <p data-i18n="rBountyDesc">
+              Türkçe alan etiketli bug bounty rapor şablonları, CVSS v3/v4 başvuru rehberi ve örnek SARIF çıktısı.
+            </p>
+            <div class="card-meta">
+              <span class="meta-link" data-i18n="metaRepo">GitHub →</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contributions" class="section">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-kicker" data-i18n="contribKicker">Topluluk &amp; Upstream</p>
+          <h2 data-i18n="contribTitle">Açık Kaynak Katkıları</h2>
+          <p data-i18n="contribDesc">
+            Güvenlik tarayıcıları ve tedarik zinciri denetim araçlarına gönderilen pull request, inceleme ve hata bildirimleri.
+          </p>
+        </div>
+
+        <div class="tools-table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th data-i18n="thRepo">Proje</th>
+                <th data-i18n="thRef">Referans</th>
+                <th data-i18n="thStatus">Durum</th>
+                <th data-i18n="thDetail">Özet</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>airlock-sec/airlock</strong></td>
+                <td><a href="https://github.com/airlock-sec/airlock/pull/108" target="_blank" rel="noopener noreferrer"><code>#108</code></a></td>
+                <td><span class="status-badge status-ok" data-i18n="stMerged">Merge Edildi</span></td>
+                <td data-i18n="cAirlock">Yazılamayan manifest/rapor yolunu exit 2 kullanım hatası olarak sınıflandırır; #122–#127 incelemeleri.</td>
+              </tr>
+              <tr>
+                <td><strong>ffuf/ffuf</strong></td>
+                <td><a href="https://github.com/ffuf/ffuf/pull/964" target="_blank" rel="noopener noreferrer"><code>#964</code></a></td>
+                <td><span class="status-badge status-warn" data-i18n="stOpen">Açık PR</span></td>
+                <td data-i18n="cFfuf">Dar terminalde progress satırının taşmasını düzeltir; #962 incelemesi.</td>
+              </tr>
+              <tr>
+                <td><strong>trufflesecurity/trufflehog</strong></td>
+                <td><a href="https://github.com/trufflesecurity/trufflehog/pull/5499" target="_blank" rel="noopener noreferrer"><code>#5499</code></a></td>
+                <td><span class="status-badge status-warn" data-i18n="stOpen">Açık PR</span></td>
+                <td data-i18n="cTruffle">README'ye doğru anchor bağlantılarıyla içindekiler tablosu ekler.</td>
+              </tr>
+              <tr>
+                <td><strong>gitleaks/gitleaks</strong></td>
+                <td><a href="https://github.com/gitleaks/gitleaks/pull/2332" target="_blank" rel="noopener noreferrer"><code>#2325</code> / <code>#2332</code></a></td>
+                <td><span class="status-badge status-warn" data-i18n="stOpen">Açık PR</span></td>
+                <td data-i18n="cGitleaks">SourceGraph çok satırlı token vakası için regresyon testi ve kural iyileştirmesi.</td>
+              </tr>
+              <tr>
+                <td><strong>semgrep · trivy · nuclei-templates</strong></td>
+                <td><code>PR &amp; Issue</code></td>
+                <td><span class="status-badge status-neutral" data-i18n="stReview">İnceleme &amp; Issue</span></td>
+                <td data-i18n="cOthers">Semgrep #11951/#12029, Trivy #11514/#11518 ve Nuclei Templates #17613/#17615 katkıları.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section id="stack" class="section">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-kicker" data-i18n="stackKicker">Araçlar &amp; Diller</p>
+          <h2 data-i18n="stackTitle">Teknoloji Yığını</h2>
+          <p data-i18n="stackDesc">
+            Günlük geliştirmede, ajan köprülerinde ve güvenlik otomasyonunda kullandığım temel teknolojiler.
+          </p>
+        </div>
+
+        <ul class="chips">
+          <li>Python</li>
+          <li>TypeScript</li>
+          <li>Bun</li>
+          <li>Node.js</li>
+          <li>Model Context Protocol (MCP)</li>
+          <li>Electron CDP</li>
+          <li>Linux</li>
+          <li>Docker</li>
+          <li>Burp Suite</li>
+          <li>GitHub Actions</li>
+          <li>SARIF</li>
+          <li>Git</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-kicker" data-i18n="contactKicker">Bağlantılar</p>
+          <h2 data-i18n="contactTitle">İletişim</h2>
+          <p data-i18n="contactDesc">
+            Proje fikirleri, güvenlik bildirimleri veya açık kaynak iş birlikleri için GitHub üzerinden ulaşabilirsin.
+          </p>
+        </div>
+
+        <div class="hero-cta-row">
+          <a class="btn btn-primary" href="https://github.com/Tarikdxd" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a class="btn btn-ghost" href="https://tarikdxd.github.io/Eschaton-Agent/" target="_blank" rel="noopener noreferrer">Eschaton-Agent</a>
+          <a class="btn btn-ghost" href="https://orcid.org/0009-0008-7306-9232" target="_blank" rel="noopener noreferrer">ORCID</a>
+          <a class="btn btn-ghost" href="https://github.com/Tarikdxd/Tarikdxd/issues/new" target="_blank" rel="noopener noreferrer" data-i18n="ctaIssue">Mesaj Bırak</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>Tarık Tozlu — Eschaton LTD.</span>
+      <span data-i18n="footerNote">Yalnızca yetkili sistemlerde test yapın · Statik site, analitik yok.</span>
+    </div>
+  </footer>
+
+  <script src="./app.js" defer></script>
+</body>
+</html>
